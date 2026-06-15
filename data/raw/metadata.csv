@@ -1,0 +1,4 @@
+fruit_id,image_id,audio_id,image_path,audio_path,label,variety,date_recorded,note
+D001,D001_front,D001_knock_01,data/raw/images/D001_front.jpg,data/raw/audios/D001_knock_01.wav,ripe,Ri6,2026-06-15,dummy sample
+D001,D001_back,D001_knock_02,data/raw/images/D001_back.jpg,data/raw/audios/D001_knock_02.wav,ripe,Ri6,2026-06-15,dummy sample
+D002,D002_front,D002_knock_01,data/raw/images/D002_front.jpg,data/raw/audios/D002_knock_01.wav,unripe,Ri6,2026-06-16,dummy sample

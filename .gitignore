@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/raw/images/
+data/raw/audios/
+
+experiments/
+runs/
+
+*.pth
+*.pt
+
+.vscode/
+
+.ipynb_checkpoints/
+.DS_Store
