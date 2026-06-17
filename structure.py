@@ -8,11 +8,10 @@ dirs = [
     Path("data/raw/audios/"),
 
     Path("data/processed/"),
-    Path("data/processed/images/"),
-    Path("data/processed/spectrogram/"),
-    
-    Path("data/splits/"),
+    Path("data/processed/spectrogram"),
 
+    Path("data/splits/"),
+    
     Path("notebooks/"),
     Path("src/"),
 
@@ -25,18 +24,10 @@ files = [
     Path("data/splits/train.csv"),
     Path("data/splits/val.csv"),
     Path("data/splits/test.csv"),
-
-    Path("notebooks/01_check_image.ipynb"),
-    Path("notebooks/02_check_audio.ipynb"),
-    Path("notebooks/03_test_spectrogram.ipynb"),
-
-    Path('src/dataset.py'),
-    Path('src/image_model.py'),
-    Path('src/audio_model.py'),
-    Path('src/fusion_model.py'),
-    Path('src/train_image.py'),
-    Path('src/train_audio.py'),
-    Path('src/train_fusion.py'),
+    
+    Path('src/config.py'),
+    Path('src/generate_dummy_data.py'),
+    Path('src/data_audit.py'),
 
     Path('requirements.txt'),
     Path('README.md'),
