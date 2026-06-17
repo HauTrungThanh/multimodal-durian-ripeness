@@ -2,10 +2,10 @@
 __pycache__/
 *.pyc
 experiments/*
-!experiments/.gitkeep
+experiments/.gitkeep
 data/raw/images/*
-!data/raw/images/.gitkeep
+data/raw/images/.gitkeep
 data/raw/audios/*
-!data/raw/audios/.gitkeep
+data/raw/audios/.gitkeep
 data/processed/*
-!data/processed/.gitkeep
+data/processed/.gitkeep
