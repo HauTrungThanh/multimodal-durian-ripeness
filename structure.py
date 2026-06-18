@@ -29,6 +29,7 @@ files = [
     Path('src/generate_dummy_data.py'),
     Path('src/data_audit.py'),
     Path('src/preprocess_audio.py'),
+    Path('src/make_split.py'),
 
     Path('requirements.txt'),
     Path('README.md'),
