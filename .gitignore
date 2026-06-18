@@ -9,3 +9,5 @@ data/raw/audios/*
 data/raw/audios/.gitkeep
 data/processed/*
 data/processed/.gitkeep
+
+structure.py

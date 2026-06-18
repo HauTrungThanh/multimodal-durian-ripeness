@@ -8,7 +8,7 @@ dirs = [
     Path("data/raw/audios/"),
 
     Path("data/processed/"),
-    Path("data/processed/spectrogram"),
+    Path("data/processed/spectrograms"),
 
     Path("data/splits/"),
     
@@ -28,6 +28,7 @@ files = [
     Path('src/config.py'),
     Path('src/generate_dummy_data.py'),
     Path('src/data_audit.py'),
+    Path('src/preprocess_audio.py'),
 
     Path('requirements.txt'),
     Path('README.md'),
