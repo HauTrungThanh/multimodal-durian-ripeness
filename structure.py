@@ -30,6 +30,9 @@ files = [
     Path('src/data_audit.py'),
     Path('src/preprocess_audio.py'),
     Path('src/make_split.py'),
+    Path('src/dataset.py'),
+    Path('src/image_model.py'),
+    Path('src/audio_model.py'),
 
     Path('requirements.txt'),
     Path('README.md'),
