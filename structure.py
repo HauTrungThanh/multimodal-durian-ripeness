@@ -33,6 +33,7 @@ files = [
     Path('src/dataset.py'),
     Path('src/image_model.py'),
     Path('src/audio_model.py'),
+    Path('src/fusion_model.py'),
 
     Path('requirements.txt'),
     Path('README.md'),
