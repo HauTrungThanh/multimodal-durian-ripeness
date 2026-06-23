@@ -16,6 +16,9 @@ dirs = [
     Path("src/"),
 
     Path("experiments/"),
+    Path("experiments/image"),
+    Path("experiments/audio"),
+    Path("experiments/fusion"),
 ]
 
 files = [
