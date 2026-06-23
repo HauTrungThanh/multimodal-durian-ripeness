@@ -34,6 +34,7 @@ files = [
     Path('src/image_model.py'),
     Path('src/audio_model.py'),
     Path('src/fusion_model.py'),
+    Path('src/train.py'),
 
     Path('requirements.txt'),
     Path('README.md'),

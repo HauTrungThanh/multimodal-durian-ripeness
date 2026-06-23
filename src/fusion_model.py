@@ -2,8 +2,8 @@ import torch
 import torch.nn as nn
 
 try:
-    from image_model import ImageClassifier
-    from audio_model import AudioClassifier
+    from image_model import ImageEncoder
+    from audio_model import AudioEncoder
 except ImportError:
     from .image_model import ImageEncoder
     from .audio_model import AudioEncoder

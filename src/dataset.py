@@ -82,10 +82,7 @@ class DurianMultimodalDataset(Dataset):
     
     @staticmethod
     def _spectrogram_path(row: pd.Series) -> Path:
-        if "audio_path" in row.index and pd.notna(row["audio_path"]):
-            audio_key = str(row["audio_path"])
-        else:
-            audio_key = Path(str(row["audio_path"])).stem
+        audio_key = Path(str(row["audio_path"])).stem
         return SPECTROGRAM_DIR / f"{audio_key}_mel.npy" 
     
     def _load_image(self, image_path: Path) -> torch.Tensor:

@@ -25,7 +25,7 @@ class ImageEncoder(nn.Module):
 class ImageClassifier(nn.Module):
     def __init__(self, num_classes: int = 3, embedding_dim: int = 128, pretrained: bool = False):
         super().__init__()
-        self.encoder = ImageClassifier(embedding_dim=embedding_dim, pretrained=pretrained)
+        self.encoder = ImageEncoder(embedding_dim=embedding_dim, pretrained=pretrained)
         self.classifier = nn.Sequential(
             nn.Linear(embedding_dim, 64),
             nn.ReLU(),

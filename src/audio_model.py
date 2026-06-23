@@ -40,7 +40,7 @@ class AudioEncoder(nn.Module):
 class AudioClassifier(nn.Module):
     def __init__(self, num_classes: int = 3, embedding_dim: int = 128):
         super().__init__()
-        self.encoder = AudioClassifier(embedding_dim=embedding_dim)
+        self.encoder = AudioEncoder(embedding_dim=embedding_dim)
         self.classifier = nn.Sequential(
             nn.Linear(embedding_dim, 64),
             nn.ReLU(),
